@@ -1,4 +1,4 @@
-# Krishivaani
+# KrishiVaani
 
 KrishiVaani is a curated conversational Hindi speech dataset designed to tackle the challenges of Automatic Speech Recognition (ASR) in real-world settings, particularly in agriculture. It captures diverse accents, linguistic variations, and domain-specific vocabulary, making it highly relevant for low-resource language research. The dataset also supports downstream tasks like ASR post-correction and validation.
 
@@ -44,7 +44,7 @@ This directory contains the core audio and transcription data used for training 
 - `Test/`
   - `Known/`
   - `Unknown/`
-  - `OOD/`
+  - `OOD/` *(Out-of-Domain)*
 
 Each of the above test subsets contains:
 - `Audio/`
@@ -54,7 +54,7 @@ Each of the above test subsets contains:
   - `Audio/`
   - `Transcripts/`
 
-The dataset follows a clean and categorized format to facilitate structured evaluation across different data types.
+The dataset is organized to support structured evaluation across various data categories.
 
 ---
 
@@ -65,8 +65,8 @@ This directory contains inference results from the **KVWav2Vec2** model for comp
 Subfolders:
 - `Known/`
 - `Unknown/`
-- `OOD/`
+- `OOD/` *(Out-of-Domain)*
 
-Each folder stores model inferences corresponding to that data type, used for baseline ASR performance analysis.
+Each folder stores model inferences corresponding to its category, which are used to analyze baseline ASR performance.
 
 ---
