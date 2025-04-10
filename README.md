@@ -12,7 +12,7 @@ This directory explores zero-shot and few-shot prompting strategies using ChatGP
 
 - `Known/`
 - `Unknown/`
-- `OOD/` *(Out-of-Distribution)*
+- `OOD/` *(Out-of-Domain)*
 
 Each of these contains:
 - `noshot/`
