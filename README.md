@@ -60,7 +60,7 @@ The dataset is organized to support structured evaluation across various data ca
 
 ### 🔹 LM/ (Language Model Inferences)
 
-This directory contains inference results from the **KVWav2Vec2** model for computing **Word Error Rates (WER)**.
+This directory contains inference results from the **KVWav2Vec** model used for computing **Word Error Rates (WER)**.
 
 Subfolders:
 - `Known/`
